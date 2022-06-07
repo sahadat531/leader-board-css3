@@ -1,0 +1,201 @@
+/* Global or default styling */
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #f3f1ff;
+}
+.container {
+	max-width: 850px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 30px;
+}
+
+/* Header Styling */
+.header {
+	background-color: #562eff;
+	padding: 25px 0px;
+}
+.nav-menu {
+	max-width: 850px;
+	margin: 0 auto;
+}
+.logo,
+.nav-menu,
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo img {
+	width: 40px;
+	margin-right: 20px;
+}
+.logo span {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #ffffff;
+}
+.menu {
+	display: flex;
+}
+.menu-item a {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: none;
+	color: #ffffff;
+	padding-right: 30px;
+}
+/* Top Players Styling  */
+
+.top-player-title,
+.latest-course-title {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #562eff;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.players,
+.courses {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 30px;
+	grid-column-gap: 90px;
+}
+
+.player,
+.blog {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+.player img {
+	width: 56px;
+	height: 56px;
+	margin-right: 16px;
+}
+.player h3 {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	color: #000000;
+}
+
+.container hr {
+	width: 807px;
+	height: 0px;
+	border: 1px solid #d1d1d1;
+	margin: 30px 0px;
+}
+
+/* Blogs Section Styling */
+.blogs {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 30px;
+	grid-column-gap: 90px;
+}
+.blog img {
+	width: 177px;
+	height: 117px;
+	margin-right: 16px;
+}
+.blog p {
+	color: #562eff;
+}
+.blog-author {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #9f9f9f;
+	margin-right: 5px;
+}
+
+/* Latest Courses Styling  */
+.latest-courses {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.courses {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 40px;
+}
+.course {
+	width: 232px;
+}
+.course img {
+	width: 224px;
+	height: 104px;
+}
+.course-author {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14.6913px;
+	line-height: 17px;
+	color: #ed6b4f;
+	margin-top: -10px;
+}
+.course-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: -10px;
+}
+.bi-star-fill {
+	width: 12.5px;
+	height: 21.81px;
+	color: #ffc014;
+	/* line-height: 5px; */
+}
+.bi-star {
+	width: 12.5px;
+	height: 21.81px;
+	color: #aeaeae;
+	/* line-height: 5px; */
+}
+.rating {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14.6913px;
+	line-height: 22px;
+	color: #a2a2a2;
+}
+.duration {
+	background: #ffe4e8;
+	width: 80px;
+	border-radius: 14.6913px;
+	padding: 4px;
+	font-family: "poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14.6913px;
+	line-height: 17px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ed6b4f;
+}
+.duration .bi-clock {
+	width: 16px;
+	height: 16px;
+	color: #ff4a60;
+	margin-right: 3px;
+	line-height: 7px;
+}

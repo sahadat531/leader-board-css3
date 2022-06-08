@@ -199,3 +199,49 @@ body {
 	margin-right: 3px;
 	line-height: 7px;
 }
+
+/* Responsive Design  */
+@media only screen and (max-width: 767px) {
+	.header {
+		background-color: #562eff;
+		padding: 25px 20px;
+	}
+	.menu-item a {
+		padding-right: 20px;
+	}
+	.players,
+	.courses {
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 20px;
+		grid-column-gap: 40px;
+	}
+	.container hr {
+		width: 100%;
+	}
+	.blogs {
+		grid-template-columns: repeat(1, 1fr);
+		grid-row-gap: 30px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.header {
+		background-color: #562eff;
+		padding: 25px 20px;
+	}
+	.menu-item a {
+		padding-right: 20px;
+	}
+	.players,
+	.courses {
+		grid-template-columns: repeat(3, 1fr);
+		grid-row-gap: 20px;
+		grid-column-gap: 40px;
+	}
+	.container hr {
+		width: 100%;
+	}
+	.blogs {
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 30px;
+	}
+}
